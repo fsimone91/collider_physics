@@ -1,1 +1,1 @@
-Input files are stored on eos
+Collection of exercises for the "Collider Particle Physics" for the master degree in Physics (Piano di Studi Corso di Laurea Magistrale in PHYSICS at University of Bari (https://www.uniba.it/it/corsi/magistrale-physics).
