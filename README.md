@@ -1,7 +1,7 @@
 Collection of exercises for the "Collider Particle Physics" course within the master degree in Physics at University of Bari (https://www.uniba.it/it/corsi/magistrale-physics).
 
 ### Quick setup
-We assuming you have a python3 environment with ROOT. It is advisable to use `conda`.
+We assume you have a python3 environment with ROOT. It is advisable to use `conda`, please find instructions in the slides.
 
 How to run the code as jupyter notebook:
 ```bash
