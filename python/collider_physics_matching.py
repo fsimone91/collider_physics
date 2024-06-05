@@ -106,10 +106,10 @@ for i in range(nevt):
             #print("thisdR=", thisDR)
             if(thisDR<dR):
                 dR=thisDR
-                if(dR<0.01):
-                    histoNum_Pt.Fill(GenMuonList[k].Pt());
-                    pt_res = (GenMuonList[k].Pt()-RecoMuonList[i].Pt())/GenMuonList[k].Pt()
-                    hPtRes.Fill(pt_res)
+        if(dR<0.01):
+            histoNum_Pt.Fill(GenMuonList[k].Pt());
+            pt_res = (GenMuonList[k].Pt()-RecoMuonList[i].Pt())/GenMuonList[k].Pt()
+            hPtRes.Fill(pt_res)
 
 c1 = TCanvas( 'c1', 'Gen Muon Pt', 200, 10, 700, 500 )
 hGenMu1Pt.SetLineColor(23)
